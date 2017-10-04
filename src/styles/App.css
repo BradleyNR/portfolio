@@ -1,0 +1,20 @@
+.main-header {
+  height: 100vh;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  min-height: 350px;
+  background-color: #2A3A3F;
+}
+
+.main-header-text {
+  color: #FFF;
+  padding-top: 50vh;
+}
+
+.testing {
+  background-color: blue;
+  height: 500px;
+}
+
+/*//TESTING*/
