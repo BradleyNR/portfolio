@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 
 import skills from '../data/skills.js';
-import js from '../images/js_logo.png';
+
+
 
 class Main extends Component{
   constructor(props){
@@ -16,9 +17,17 @@ class Main extends Component{
     let skillBox = skills.map((item, index) => {
       return (
         <div className='skill-box three columns offset-by-one' key={item.id}>
-          {/* <img src={require(self.image)} className='skill-image'/> */}
+          <div className='img-container'>
+            <img src={item.img} className='skill-image'/>
+          </div>
 
-          <h1 className='skill-title'>{item.title}</h1>
+
+          <div className='row'>
+            <h1 className='skill-title twelve columns'>{item.title}</h1>
+          </div>
+          <div className='row'>
+            <p className='skill-description'>{item.description}</p>
+          </div>
         </div>
       )
     })

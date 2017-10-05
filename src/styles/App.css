@@ -26,14 +26,19 @@
 /*SKILLS*/
 
 .skill-area-bg {
-  height: 500px;
+  height: 450px;
 }
 
 .skill-box {
-  background-color: grey;
+  /*background-color: grey;*/
   height: 300px;
   border-radius: 5px;
   margin-top: 50px;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
 }
 
 .skill-title {
@@ -44,6 +49,11 @@
 .skill-image {
   height: 100px;
   width: 100px;
+  margin-bottom: 30px;
+}
+
+.skill-description {
+  text-align: center;
 }
 
 
