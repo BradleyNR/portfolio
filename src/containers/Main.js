@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 
-import skills from '../data/skills.js';
+import Skills from '../components/Skills';
+
+import projects from '../data/projects.js';
 
 
 
@@ -14,23 +16,6 @@ class Main extends Component{
   }
 
   render(){
-    let skillBox = skills.map((item, index) => {
-      return (
-        <div className='skill-box three columns offset-by-one' key={item.id}>
-          <div className='img-container'>
-            <img src={item.img} className='skill-image'/>
-          </div>
-
-
-          <div className='row'>
-            <h1 className='skill-title twelve columns'>{item.title}</h1>
-          </div>
-          <div className='row'>
-            <p className='skill-description'>{item.description}</p>
-          </div>
-        </div>
-      )
-    })
 
     return(
       <div className='row'>
@@ -38,8 +23,11 @@ class Main extends Component{
           <h1 className='main-header-text'>Bradley Carson</h1>
           <h2 className='main-header-secondary-text'>Front End Developer</h2>
         </header>
-        <div className='skill-area-bg'>
-          {skillBox}
+
+        <Skills />
+
+        <div className='project-area-bg'>
+          <h1 className='projects-header'>Projects</h1>
         </div>
       </div>
 
