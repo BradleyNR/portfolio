@@ -49,6 +49,10 @@
   margin-bottom: 30px;
 }
 
+.skill-image:hover{
+  animation: rotate-center .6s ease-in-out both;
+}
+
 .skill-description {
   text-align: center;
 }
@@ -66,5 +70,17 @@
 }
 
 
+/*ANIMATION*/
+@keyframes rotate-center {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 
-/*//TESTING*/
+
+/*.rotate-center {
+	animation: rotate-center 0.6s ease-in-out both;
+}*/
