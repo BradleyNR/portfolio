@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 
 import Skills from '../components/Skills';
-
-import projects from '../data/projects.js';
-
+import Projects from '../components/Projects';
 
 
 class Main extends Component{
@@ -22,13 +20,14 @@ class Main extends Component{
         <header className='main-header'>
           <h1 className='main-header-text'>Bradley Carson</h1>
           <h2 className='main-header-secondary-text'>Front End Developer</h2>
+          {/* <a href='https://www.google.com'>
+            <img className='github-logo' src='http://www.freeiconspng.com/uploads/github-logo-icon-22.png' />
+          </a> */}
         </header>
 
         <Skills />
 
-        <div className='project-area-bg'>
-          <h1 className='projects-header'>Projects</h1>
-        </div>
+        <Projects />
       </div>
 
     )

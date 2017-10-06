@@ -21,6 +21,13 @@
   margin-top: 30px;
 }
 
+.github-logo {
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  border-radius: 5px;
+}
+
 /*SKILLS*/
 
 .skill-area-bg {
@@ -57,9 +64,12 @@
   text-align: center;
 }
 
+/*PROJECTS*/
+
 .project-area-bg {
+  color: #FFF;
   background-color: #2A3A3F;
-  height: 400px;
+  height: 1200px;
   text-align: center;
 }
 
@@ -67,6 +77,24 @@
   color: #FFF;
   font-family: 'Roboto Mono', monospace;
   padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.project-title {
+  color: #FFF;
+  margin-top: 15px;
+}
+
+.project-img {
+  height: 220px;
+  width: 400px;
+  margin-top: 30px;
+  border: 2px solid #000;
+  border-radius: 3px;
+}
+
+.project-img:hover {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 1);
 }
 
 
