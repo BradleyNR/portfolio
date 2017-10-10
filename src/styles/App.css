@@ -161,8 +161,8 @@
 .bottom-text {
   color: #FFF;
   font-size: 20px;
-  padding-left: 10px;
-  padding-top: 25px;
+  padding-left: 20px;
+  padding-top: 20px;
 }
 
 .bottom-link-image {
@@ -174,7 +174,7 @@
   display: inline-block;
   font-size: 18px;
   position: relative;
-  bottom: 10px;
+  bottom: 17px;
 }
 
 .bottom-image-row {
