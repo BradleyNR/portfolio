@@ -8,7 +8,7 @@ class Projects extends Component{
     let projectBox = projects.map((item, index) => {
       return (
         <div className='project-box twelve columns row' key={index}>
-          <div className='project-img-container five columns offset-by-one'>
+          <div className='project-img-container six columns'>
             <a href={item.url}> <img src={item.img} className='project-img' alt='project'/> </a>
           </div>
 
