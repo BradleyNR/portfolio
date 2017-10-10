@@ -26,6 +26,7 @@ class Skills extends Component{
 
     return (
       <div className='skill-area-bg'>
+        <h1 id='skills-area-main-header'>Skills and Technologies</h1>
         {skillBox}
       </div>
     )

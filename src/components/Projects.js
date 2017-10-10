@@ -26,7 +26,7 @@ class Projects extends Component{
 
     return (
       <div className='project-area-bg'>
-        <h1 className='projects-header'>Projects</h1>
+        <h1 className='projects-header' id='projects-area-main-header'>Projects</h1>
         {projectBox}
       </div>
     )

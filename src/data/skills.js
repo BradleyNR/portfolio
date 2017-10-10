@@ -15,7 +15,7 @@ let skills = [
     id: 3,
     title: 'CSS',
     img: '/images/css_logo.png',
-    description: "I am familiar with CSS as well as popular frameworks like Bootstrap. Clever use of CSS can turn a website into a wonderful user experience! (Hover over a skill icon for a surprise!)"
+    description: "I am familiar with CSS as well as popular frameworks like Bootstrap. Clever use of CSS can turn a website into a wonderful user experience!"
   },
   {
     id: 3,
