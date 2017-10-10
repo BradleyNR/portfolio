@@ -70,6 +70,7 @@
   border-radius: 5px;
   margin-top: 20px;
   margin-bottom: 30px;
+  height: 350px;
 }
 
 .img-container {
@@ -150,6 +151,22 @@
 
 .project-img:hover {
   box-shadow: 0 0 15px rgba(255, 255, 255, 1);
+}
+
+/*REFERENCES*/
+
+.reference-area-bg {
+  background-color: #FFF;
+  padding: 30px;
+}
+
+.references-header {
+  text-align: center;
+  font-size: 60px;
+}
+
+.quotation {
+  font-size: 20px;
 }
 
 /*BOTTOM NAV*/

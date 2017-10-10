@@ -4,6 +4,7 @@ import $ from 'jquery';
 import Skills from '../components/Skills';
 import Projects from '../components/Projects';
 import BottomNav from '../components/Bottomnav';
+import References from '../components/References';
 
 class Main extends Component{
   constructor(props){
@@ -38,6 +39,8 @@ class Main extends Component{
           <div className='row internal-link-row'>
             <a className='button internal-link' href='#skills-area-main-header'>Skills</a>
             <a className='button internal-link' href='#projects-area-main-header'>Projects</a>
+            <a className='button internal-link' href='#references'>References</a>
+
           </div>
 
           <h1 className='main-header-text'>Bradley Carson</h1>
@@ -47,6 +50,8 @@ class Main extends Component{
         <Skills />
 
         <Projects />
+
+        <References />
 
         <BottomNav />
       </div>
