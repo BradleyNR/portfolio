@@ -201,7 +201,8 @@
 
 .bottom-text {
   color: #FFF;
-  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
   padding-left: 20px;
   padding-top: 20px;
 }
@@ -212,6 +213,7 @@
 
 .bottom-email {
   color: #FFF;
+  font-family: 'Raleway', sans-serif;
   display: inline-block;
   font-size: 18px;
   position: relative;
