@@ -11,7 +11,9 @@
 .internal-link {
   border: none;
   color: #FFF;
-  font-size: 20px;
+  font-size: 16px;
+  font-weight: lighter;
+  letter-spacing: 2px;
   margin-top: 10px;
 }
 
@@ -21,7 +23,7 @@
 
 .main-header::after {
   content: "";
-  background: linear-gradient( rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ), url('/portfolio/images/geometric_bg.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ), url('/images/geometric_bg.jpg');
   background-size: cover;
   opacity: 0.5;
   top: 0;
@@ -36,13 +38,18 @@
   color: #FFF;
   font-size: 100px;
   padding-top: 35vh;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 .main-header-secondary-text {
   color: #FFF;
   font-size: 40px;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1px;
   margin-top: 30px;
 }
 
@@ -61,6 +68,7 @@
 
 #skills-area-main-header{
   font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   margin-top: 50px;
   margin-bottom: 35px;
@@ -81,6 +89,10 @@
 .skill-title {
   color: #000;
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+  font-weight: 900;
+  letter-spacing: 1px;
 }
 
 .skill-image {
@@ -91,6 +103,12 @@
 
 .skill-image:hover{
   animation: rotate-center .6s ease-in-out both;
+}
+
+.skill-description {
+  color: #62757f;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
 }
 
 
@@ -111,8 +129,8 @@
 
 .projects-header {
   color: #FFF;
-  font-family: 'Roboto Mono', monospace;
-  font-size: 60px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
   padding-top: 50px;
   padding-bottom: 50px;
   border-bottom: 2px dotted #000;
@@ -120,18 +138,21 @@
 
 .project-title {
   color: #FFF;
+  font-family: 'Raleway', sans-serif;
   margin-top: 15px;
   padding-bottom: 30px;
-  font-size: 60px;
+  font-size: 50px;
 }
 
 .project-description {
+  font-family: 'Montserrat', sans-serif;
   margin-top: 20px;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .project-description-codelink {
-  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
   padding-top: 15px;
   border-top: 1px solid grey;
 }
@@ -156,11 +177,19 @@
 
 .references-header {
   text-align: center;
-  font-size: 60px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
   padding-bottom: 20px;
 }
 
 .quotation {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  color: #62757f;
+}
+
+.referenced-by {
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
 }
 
