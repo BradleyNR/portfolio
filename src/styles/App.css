@@ -23,7 +23,7 @@
 
 .main-header::after {
   content: "";
-  background: linear-gradient( rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ), url('/portfolio/images/geometric_bg.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ), url('/images/geometric_bg.jpg');
   background-size: cover;
   opacity: 0.5;
   top: 0;
@@ -124,7 +124,6 @@
 .project-box {
   padding-top: 50px;
   padding-bottom: 50px;
-  border-bottom: 3px dotted #000;
 }
 
 .projects-header {
@@ -132,8 +131,15 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 50px;
   padding-top: 50px;
-  padding-bottom: 50px;
-  border-bottom: 2px dotted #000;
+}
+
+.project-header-subtext {
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  border-bottom: 1px dashed #FFF;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 20px;
 }
 
 .project-title {
@@ -153,15 +159,22 @@
 .project-description-codelink {
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
-  padding-top: 15px;
-  border-top: 1px solid grey;
+  margin-top: 15px;
+}
+
+.project-description-codelink:hover {
+  background-color: #2A1A3B;
+}
+
+.project-description-codelink a{
+  color: #FFF;
+  text-decoration: none;
 }
 
 .project-img {
-  max-width: 75%;
+  max-width: 100%;
   height: auto;
-  border: 2px solid #000;
-  border-radius: 3px;
+  border: 1px solid #000;
 }
 
 .project-img:hover {
