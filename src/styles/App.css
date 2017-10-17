@@ -237,6 +237,33 @@
   padding-top: 15px;
 }
 
+@media (max-width: 966px) {
+  .main-header-text {
+    font-size: 60px;
+    padding-top: 30vh;
+  }
+
+  .main-header-secondary-text {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 464px) {
+  .main-header-text {
+    font-size: 40px;
+    padding-top: 20vh;
+  }
+
+  .main-header-secondary-text {
+    font-size: 10px;
+  }
+
+  .internal-link-row {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 
 /*ANIMATION*/
 @keyframes rotate-center {
